@@ -6,8 +6,8 @@ TODO: Student to complete code and comments in the sections below.
 - Results from kubeadm --join:
 
 
-[34.219.212.132] (BINARY-N/A:N/A) k8s@hol12 ~
-$ sudo kubeadm join 52.39.107.122:6443 --token wmru58.7r4i9cbcifsketsg --discovery-token-ca-cert-hash sha256:b1ccdb564d75ee1eb103fc193d59788e9238bc30aa4cd027bd62b90ce9695aa1
+[34.218.45.26] (BINARY-N/A:N/A) k8s@hol12 ~
+$ sudo kubeadm join 34.219.212.132:6443 --token wmru58.7r4i9cbcifsketsg --discovery-token-ca-cert-hash sha256:b1ccdb564d75ee1eb103fc193d59788e9238bc30aa4cd027bd62b90ce9695aa1
 [preflight] Running pre-flight checks
 [preflight] Reading configuration from the cluster...
 [preflight] FYI: You can look at this config file with 'kubectl -n kube-system get cm kubeadm-config -o yaml'
